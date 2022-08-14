@@ -1,4 +1,4 @@
-# How to use Webcam in (UE5)Unreal Engine 5 
+# How to use Webcam in (UE5)Unreal Engine 5.03
 *OpenCV plugin*
 ## introduction
 UE5は現在DirectX12でMediaPlayerでのwebcamを使うことができないようです。このレポジトリではOpenCVのcv::Videocaptureの機能を使うことでMediaPalyerの代わりとして解決する方法を示します。このエラーはUE5.1で改善されることが公式でいわれていますので、気長に待つことも解決策の一つと言えます。
@@ -19,7 +19,7 @@ OpenCVがベータ版の時、メッセージが出ますが気にせず「は�
 <img src="Img/plugin.png" width="900px"/>
 
 ## Step3
-次に、UE側で必要なものを作成する。まず、ユーザーインターフェースのウィジェットブループリントを作成する。名前は「HUD」としてそれを開きます。パレットからImageを探し右にドラッグアンドドロップします。すると、左の階層にImage_60が現れるので、それを左クリックしてください。最後に、...でラップする->Canvas Panelをクリックして、ImageをCanvas Panelでラップします。Imageが小さくなるはずなので、好きな大きさに拡大してください。次に、マテリアルと描画ターゲットを追加します。
+次に、UE側で必要なものを作成する。まず、ユーザーインターフェースのウィジェットブループリントを作成する。名前は「HUD」としてそれを開きます。パレットからImageを探し右にドラッグアンドドロップします。すると、左の階層にImage_が現れるので、それを左クリックしてください。最後に、...でラップする->Canvas Panelをクリックして、ImageをCanvas Panelでラップします。Imageが小さくなるはずなので、好きな大きさに拡大してください。次に、マテリアルと描画ターゲットを追加します。
 <img src="Img/UserWidget.png" width="900px"/>
 
 ## Step4
@@ -35,3 +35,6 @@ OpenCVがベータ版の時、メッセージが出ますが気にせず「は�
 <img src="Img/HUDBP.png" width="900px"/>
 最後に、レベルブループリントを開き、下の写真のようにします。
 <img src="Img/LevelBP.png" width="900px"/>
+
+## まとめ
+もしかしたら無駄な作業があるかもしれませんが、私の環境ではこの手順で実行できました。これを読んだ人が開発をより進めることが出来るようになることを祈っています。
