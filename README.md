@@ -41,4 +41,4 @@ OpenCVがベータ版の時、メッセージが出ますが気にせず「は�
 
 ## 動画
 動画の方が分かりやすいかもしれません。PCの性能上、処理がめっちゃ遅いですがところどころスキップしてください。
-[![UE5でDirectX12のままD3D12を回避する]](https://youtu.be/t6OXR9VYYa4)
+[![UE5でDirectX12のままD3D12を回避する](Img/error.png)](https://youtu.be/t6OXR9VYYa4)
